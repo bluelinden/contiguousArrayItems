@@ -1,10 +1,10 @@
 /**
- * Returns information about a specific run of contiguous identical items within an array.
+ * Returns information about a specific run of contiguous identical items within an array
  *
  * @author Blue Linden
  * @param {array} array The array to count contiguous elements within
- * @param {number} atIndex The power, must be a natural number.
- * @return {object} Object containing .start, .end and .count properties.
+ * @param {number} atIndex Index of the item to count around
+ * @return {object} Object containing .start, .end and .count properties
  */
 
 function contiguousRange(array, atIndex) {
